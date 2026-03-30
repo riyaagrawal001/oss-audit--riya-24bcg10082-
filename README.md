@@ -125,6 +125,4 @@ Overall, this project improved my understanding of system-level programming and 
 
 ##  Note
 
-All scripts have been written and tested by me in a Linux environment.
-The work submitted here reflects my own understanding and learning.
-
+I have written all the scripts myself. I tested them on Linux. The work I am submitting is what I have learned and understand about the scripts. I did all the work, in a Linux environment. The scripts and the work are based on my learning and understanding.
