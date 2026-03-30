@@ -21,55 +21,13 @@ Through this project, I explored basic Linux commands, system-level operations, 
 
 ###  Script 1 – System Identity Report
 
-This script displays important details about the system such as:
-
-* Kernel version
-* Current user
-* System uptime
-* Operating system details
-* Current date and time
-
-It mainly uses variables and command substitution to fetch system information.
-
 ###  Script 2 – FOSS Package Inspector
-
-This script checks whether **Git** is installed on the system or not.
-If installed, it displays useful details like version and description.
-
-Concepts used:
-
-* `if-else` condition
-* `case` statement
-* Package management commands (`dpkg`)
 
 ###  Script 3 – Disk and Permission Auditor
 
-This script analyzes important system directories such as `/etc`, `/home`, and `/var/log`.
-
-It shows:
-
-* Directory size
-* Permissions
-* Owner details
-
-A `for` loop is used to go through multiple directories.
-
 ###  Script 4 – Log File Analyzer
-
-This script reads a log file and counts how many times a specific keyword (by default **"error"**) appears.
-
-It also shows the last few matching lines for better understanding.
-
-Concepts used:
-
-* `while` loop
-* `if` condition
-* Command-line arguments
   
 ###  Script 5 – Open Source Manifesto Generator
-
-This is an interactive script where the user gives input.
-Based on the input, it generates a simple open-source philosophy statement and saves it in a text file.
 
 ##  How to Run the Scripts
 
