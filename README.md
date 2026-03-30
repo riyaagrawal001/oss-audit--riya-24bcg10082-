@@ -56,7 +56,6 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ```
 ##  Requirements
 
-* Linux Operating System (Ubuntu preferred)
 * Bash shell
 * Basic knowledge of terminal commands
 
@@ -68,7 +67,6 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 * `script3.sh` → Disk analysis
 * `script4.sh` → Log analyzer
 * `script5.sh` → Manifest generator
-* `report.pdf` → Final project report
 
 ##  Conclusion
 
