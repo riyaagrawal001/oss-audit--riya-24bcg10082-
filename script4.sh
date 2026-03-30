@@ -8,7 +8,7 @@ COUNT=0
 
 # -------- FILE CHECK --------
 if [ ! -f "$LOGFILE" ]; then
-    echo "Error: File not found ❌"
+    echo "Error: File not found "
     exit 1
 fi
 
