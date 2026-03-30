@@ -9,12 +9,12 @@ echo "--------------------------"
 
 # -------- CHECK INSTALLATION --------
 if dpkg -l | grep -q "$PACKAGE"; then
-    echo "$PACKAGE is installed ✅"
+    echo "$PACKAGE is installed "
     
     # Show details
     dpkg -s $PACKAGE | grep -E 'Version|Maintainer|Description'
 else
-    echo "$PACKAGE is NOT installed ❌"
+    echo "$PACKAGE is NOT installed "
 fi
 
 # -------- CASE STATEMENT --------
