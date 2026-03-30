@@ -19,5 +19,5 @@ echo "I regularly use $TOOL, which shows power of community." >> $OUTPUT
 echo "In future, I want to build $BUILD and share it freely." >> $OUTPUT
 
 echo ""
-echo "Manifesto saved to $OUTPUT ✅"
+echo "Manifesto saved to $OUTPUT "
 cat $OUTPUT
