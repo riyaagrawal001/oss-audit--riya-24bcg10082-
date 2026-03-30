@@ -1,31 +1,25 @@
 # oss-audit--riya-24bcg10082-
 # OSS Audit Project
 
-## 👩‍🎓 Student Details
+## Student Details
 
 Name:Riya Agrawal
 Registration Number:24BCG10082
 
----
-
-## 💻 Chosen Software
+##  Chosen Software
 
 I have chosen **Git**, which is a widely used open-source version control system. It helps developers track changes in their code and collaborate efficiently on projects.
 
----
-
-## 📘 Project Overview
+## Project Overview
 
 This project is a part of the **Open Source Software (OSS)** course.
 The main aim of this project is to understand how open-source systems work and to gain practical knowledge by writing shell scripts in a Linux environment.
 
 Through this project, I explored basic Linux commands, system-level operations, and the importance of open-source tools in real-world applications.
 
----
+## Shell Scripts Description
 
-## 📜 Shell Scripts Description
-
-### 🔹 Script 1 – System Identity Report
+###  Script 1 – System Identity Report
 
 This script displays important details about the system such as:
 
@@ -37,9 +31,7 @@ This script displays important details about the system such as:
 
 It mainly uses variables and command substitution to fetch system information.
 
----
-
-### 🔹 Script 2 – FOSS Package Inspector
+###  Script 2 – FOSS Package Inspector
 
 This script checks whether **Git** is installed on the system or not.
 If installed, it displays useful details like version and description.
@@ -50,9 +42,7 @@ Concepts used:
 * `case` statement
 * Package management commands (`dpkg`)
 
----
-
-### 🔹 Script 3 – Disk and Permission Auditor
+###  Script 3 – Disk and Permission Auditor
 
 This script analyzes important system directories such as `/etc`, `/home`, and `/var/log`.
 
@@ -64,9 +54,7 @@ It shows:
 
 A `for` loop is used to go through multiple directories.
 
----
-
-### 🔹 Script 4 – Log File Analyzer
+###  Script 4 – Log File Analyzer
 
 This script reads a log file and counts how many times a specific keyword (by default **"error"**) appears.
 
@@ -77,17 +65,13 @@ Concepts used:
 * `while` loop
 * `if` condition
 * Command-line arguments
-
----
-
-### 🔹 Script 5 – Open Source Manifesto Generator
+  
+###  Script 5 – Open Source Manifesto Generator
 
 This is an interactive script where the user gives input.
 Based on the input, it generates a simple open-source philosophy statement and saves it in a text file.
 
----
-
-## ▶️ How to Run the Scripts
+##  How to Run the Scripts
 
 ### Step 1: Open Terminal
 
@@ -112,18 +96,13 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ./script4.sh /var/log/syslog
 ./script5.sh
 ```
-
----
-
-## ⚙️ Requirements
+##  Requirements
 
 * Linux Operating System (Ubuntu preferred)
 * Bash shell
 * Basic knowledge of terminal commands
 
----
-
-## 📂 Repository Contents
+##  Repository Contents
 
 * `README.md` → Project description
 * `script1.sh` → System report
@@ -133,9 +112,7 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 * `script5.sh` → Manifest generator
 * `report.pdf` → Final project report
 
----
-
-## 📌 Conclusion
+##  Conclusion
 
 Working on this project helped me understand:
 
@@ -146,11 +123,8 @@ Working on this project helped me understand:
 
 Overall, this project improved my understanding of system-level programming and open-source tools.
 
----
-
-## 📎 Note
+##  Note
 
 All scripts have been written and tested by me in a Linux environment.
 The work submitted here reflects my own understanding and learning.
 
----
